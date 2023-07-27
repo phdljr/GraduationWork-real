@@ -1,0 +1,45 @@
+plugins {
+    id 'org.springframework.boot' version '2.6.7'
+    id 'io.spring.dependency-management' version '1.0.11.RELEASE'
+    id 'java'
+}
+
+group = 'com.brother'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = '11'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    // JPA Dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    // Web MVC Dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    // WebSocket Dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-websocket'
+    // Swagger Dependencies
+    implementation 'io.springfox:springfox-boot-starter:3.0.0'
+    // Validation Dependencies
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+    // https://mvnrepository.com/artifact/net.nurigo/javaSDK
+    implementation 'net.nurigo:javaSDK:2.2'
+    // H2 Database Dependencies
+    runtimeOnly 'com.h2database:h2'
+    // Lombok Dependencies
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    // Test Dependencies
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
