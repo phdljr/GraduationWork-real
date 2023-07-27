@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "치킨 먹을 사람 구함",
+    "gatheringPlace": "금오공대 푸름1동",
+    "currNumOfPeople": 2,
+    "maximumPeople": 5,
+    "minimumOrderAmount": 25000,
+    "currentAmount": 10000
+  },
+  {
+    "id": 2,
+    "title": "중국집 같이 시켜먹을래요?",
+    "gatheringPlace": "금오공대 푸름3동",
+    "currNumOfPeople": 2,
+    "maximumPeople": 3,
+    "minimumOrderAmount": 15000,
+    "currentAmount": 5000
+  },
+  {
+    "id": 3,
+    "title": "햄버거 먹으실분?",
+    "gatheringPlace": "구미시 옥계동",
+    "currNumOfPeople": 5,
+    "maximumPeople": 10,
+    "minimumOrderAmount": 30000,
+    "currentAmount": 20000
+  },
+  {
+    "id": 4,
+    "title": "카페에서 커피 공동주문 하실분?",
+    "gatheringPlace": "금오공대 오름2동",
+    "currNumOfPeople": 5,
+    "maximumPeople": 10,
+    "minimumOrderAmount": 20000,
+    "currentAmount": 5000
+  },
+  {
+    "id": 5,
+    "title": "찜닭 먹읍시다",
+    "gatheringPlace": "금오공대 디지털관",
+    "currNumOfPeople": 2,
+    "maximumPeople": 4,
+    "minimumOrderAmount": 20000,
+    "currentAmount": 7000
+  }
+]

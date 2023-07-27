@@ -27,7 +27,6 @@ pnpm-debug.log*
 
 ### npm run build ###
 back-end/src/main/resources/static/
-front-end
 
 ################
 ### BACK END ###
